@@ -32,7 +32,7 @@ function decodeString(text: string) {
 }
 
 export function saveFile(text: string, isJson = false): void {
-    const cacheDir = `${homedir()}/.f`;
+    const cacheDir = `${homedir()}/.fcj`;
 
     if (!existsSync(cacheDir)) {
         mkdirSync(cacheDir);
