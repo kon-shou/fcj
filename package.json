@@ -1,6 +1,6 @@
 {
   "name": "fcj",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Read clipboard and if which is json, print formatted.",
   "main": "index.js",
   "scripts": {
