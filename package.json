@@ -1,0 +1,35 @@
+{
+  "name": "fcj",
+  "version": "0.1.0",
+  "description": "Read clipboard and if which is json, print formatted.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jest --coverage",
+    "build": "./node_modules/.bin/ncc build index.ts -o dist"
+  },
+  "bin": {
+    "fcj": "dist/index.js"
+  },
+  "keywords": [
+    "json",
+    "parser",
+    "devops"
+  ],
+  "author": "kon-shou",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.9",
+    "@types/node": "^14.0.27",
+    "@zeit/ncc": "^0.22.3",
+    "jest": "^26.4.0",
+    "prettier": "^2.0.5",
+    "ts-jest": "^26.2.0",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "clipboardy": "^2.3.0",
+    "comment-json": "^3.0.3",
+    "strip-ansi": "^6.0.0"
+  }
+}
